@@ -1,0 +1,96 @@
+files:
+  include: src/styles/**/*.scss
+options:
+  formatter: stylish
+  merge-default-rules: false
+rules:
+  border-zero: 1
+  brace-style:
+    - 2
+    - allow-single-line: true
+  class-name-format:
+    - 2
+    - convention: hyphenatedbem
+  clean-import-paths:
+    - 2
+    - filename-extension: false
+      leading-underscore: false
+  empty-line-between-blocks:
+    - 2
+    - ignore-single-line-rulesets: true
+  extends-before-declarations: 1
+  extends-before-mixins: 1
+  final-newline:
+    - 2
+    - include: true
+  force-attribute-nesting: 1
+  force-element-nesting: 1
+  force-pseudo-nesting: 1
+  hex-length:
+    - 2
+    - style: short
+  hex-notation:
+    - 2
+    - style: lowercase
+  id-name-format:
+    - 2
+    - convention: hyphenatedbem
+  indentation:
+    - 2
+    - size: 2
+  leading-zero:
+    - 2
+    - include: false
+  mixins-before-declarations: 1
+  nesting-depth:
+    - 2
+    - max-depth: 2
+  no-color-keywords: 1
+  no-color-literals: 1
+  no-css-comments: 1
+  no-debug: 1
+  no-duplicate-properties: 1
+  no-empty-rulesets: 1
+  no-ids: 1
+  no-invalid-hex: 1
+  no-mergeable-selectors: 1
+  no-misspelled-properties:
+    - 2
+    - extra-properties: []
+  no-qualifying-elements:
+    - 2
+    - allow-element-with-attribute: true
+      allow-element-with-class: false
+      allow-element-with-id: false
+  no-trailing-zero: 1
+  no-url-protocols: 1
+  placeholder-in-extend: 1
+  placeholder-name-format:
+    - 2
+    - convention: hyphenatedbem
+  property-sort-order: 0
+  quotes:
+    - 2
+    - style: single
+  shorthand-values: 1
+  single-line-per-selector: 1
+  space-after-bang:
+    - 2
+    - include: false
+  space-after-colon:
+    - 2
+    - include: true
+  space-after-comma: 1
+  space-before-bang:
+    - 2
+    - include: true
+  space-before-brace:
+    - 2
+    - include: true
+  space-before-colon: 1
+  space-between-parens:
+    - 2
+    - include: false
+  trailing-semicolon: 1
+  url-quotes: 1
+  zero-unit: 1
